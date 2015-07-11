@@ -1,0 +1,9 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Tweeter Search</h2>
+@using (Html.BeginForm("TwitterSearch", "Home"))
+{
+    <input id="Text1" type="text" name="twittersearch" /><input id="Submit1" type="submit" value="submit" />
+}
